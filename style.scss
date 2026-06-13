@@ -1,7 +1,7 @@
 // Variables
-$color-principal: #3498db;
-$color-hover: #e74c3c;
-$blanco: #fff;
+$color-principal: #FFF50A;
+$color-hover: #26211C;
+$blanco: #26211C;
 
 // Mixins
 @mixin transition($prop, $dur, $func, $delay) {
@@ -62,9 +62,9 @@ $blanco: #fff;
 
 .card {
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #FFF50A;
   border-radius: 8px;
-  background: #f8f8f8;
+  background: #FFF50A;
 
   // Pregunta 2
   @include animation(fadeInUp 1s ease forwards);
